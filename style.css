@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+
+header {
+    background-color: #0055A4;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.hero {
+    background: linear-gradient(90deg, #0055A4 0%, #EF4135 100%);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem 2rem 1rem;
+}
+
+.hero h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    background-color: #EF4135;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #D32F2F;
+}
+
+.values {
+    padding: 2rem 1rem;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.values h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.values ul {
+    list-style: none;
+    padding: 0;
+}
+
+.values li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #0055A4;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
