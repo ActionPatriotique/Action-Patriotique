@@ -3,32 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Action Patriotique</title>
+    <title>Action Patriotique - Actualité & Engagement</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Action Patriotique</h1>
-        <p>Ensemble pour l’amour de la patrie</p>
+        <div class="top-bar">
+            <span class="fr-flag">
+                <svg width="42" height="28" viewBox="0 0 3 2">
+                  <rect width="1" height="2" x="0" y="0" fill="#0055A4"/>
+                  <rect width="1" height="2" x="1" y="0" fill="#FFF"/>
+                  <rect width="1" height="2" x="2" y="0" fill="#EF4135"/>
+                </svg>
+            </span>
+            <span class="logo-title">Action Patriotique</span>
+            <nav>
+                <a href="#accueil">Accueil</a>
+                <a href="#articles">Articles</a>
+                <a href="#valeurs">Valeurs</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
     <main>
-        <section class="hero">
-            <h2>Bienvenue sur Action Patriotique</h2>
-            <p>Rejoignez notre mouvement pour célébrer et défendre les valeurs de la France.<br>
-            Unis, nous agissons pour un avenir fort et fier !</p>
-            <button class="cta-button">Participer à l’action</button>
+        <section class="headline" id="accueil">
+            <h1>À la une</h1>
+            <article>
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="À la une">
+                <div>
+                    <h2>Mobilisation citoyenne pour la France</h2>
+                    <p>Des centaines de patriotes réunis à Paris pour défendre les valeurs nationales et l’avenir du pays. <a href="#">Lire la suite</a></p>
+                </div>
+            </article>
         </section>
-        <section class="values">
-            <h3>Nos valeurs</h3>
+        <div class="content-columns">
+            <section class="articles" id="articles">
+                <h2>Articles récents</h2>
+                <div class="article-list">
+                    <article>
+                        <h3>Pourquoi l’unité nationale est essentielle</h3>
+                        <p>L’unité fait la force. Découvrez pourquoi la cohésion nationale est la clé du renouveau français.</p>
+                        <a href="#">Lire</a>
+                    </article>
+                    <article>
+                        <h3>Nos droits, notre héritage</h3>
+                        <p>Défendre nos libertés, c’est aussi préserver notre identité et notre histoire.</p>
+                        <a href="#">Lire</a>
+                    </article>
+                </div>
+            </section>
+            <aside>
+                <section class="about">
+                    <h2>À propos</h2>
+                    <p>Action Patriotique rassemble celles et ceux qui veulent agir pour la France, ses valeurs et son avenir.</p>
+                </section>
+                <section class="contact" id="contact">
+                    <h2>Contact</h2>
+                    <form>
+                        <input type="text" placeholder="Votre nom" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Votre message" required></textarea>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </section>
+            </aside>
+        </div>
+        <section class="values" id="valeurs">
+            <h2>Nos valeurs</h2>
             <ul>
-                <li><strong>Unité</strong> : Rassembler tous les patriotes.</li>
-                <li><strong>Liberté</strong> : Défendre nos droits et notre héritage.</li>
-                <li><strong>Fierté</strong> : Célébrer notre culture et notre histoire.</li>
+                <li><b>Unité</b> – Rassembler tous les patriotes.</li>
+                <li><b>Liberté</b> – Défendre nos droits et notre héritage.</li>
+                <li><b>Fierté</b> – Célébrer notre culture et notre histoire.</li>
             </ul>
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 Action Patriotique. Tous droits réservés.</p>
+        <div>&copy; 2025 Action Patriotique. Tous droits réservés.</div>
+        <div class="social">
+            <a href="#" title="Twitter"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f426.png" alt="Twitter" width="24"></a>
+            <a href="#" title="Facebook"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4f1.png" alt="Facebook" width="24"></a>
+        </div>
     </footer>
 </body>
 </html>
